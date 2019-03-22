@@ -3,7 +3,7 @@ Implement a method that accepts 3 integer values a, b, c. The method should retu
 
 (In this case, all triangles must have surface greater than 0 to be accepted).
 
-
+# Reply
 ```js
 isTriangle = (a,b,c) => {
    return a + b > c && a + c > b && c + b > a;
