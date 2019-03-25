@@ -18,7 +18,7 @@ SeriesSum(5) => 1 + 1/4 + 1/7 + 1/10 + 1/13 = "1.57"
 # Reply
 ```js
 SeriesSum = num => {
-	let sum = 0;
+    let sum = 0;
     for(let i=0;i<num;i++)sum += 1/(i*3 + 1);
     return sum.toFixed(2);
 }
