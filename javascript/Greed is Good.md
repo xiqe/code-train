@@ -30,8 +30,8 @@ function score( dice ) {
   let dc = [0,0,0,0,0,0];
   let rule = [1000,200,300,400,500,600];
   let rule2 = [100,0,0,0,50,0];
-  dice.forEach(x=>{dc[x]++});
-  return dc.reduces(function(s,x,i){
+  dice.forEach(x=>{dc[x-1]++});
+  return dc.reduce(function(s,x,i){
     return s + (x >= 3? rule[i] : 0) + rule2[i]*(x % 3)
   })
 }
