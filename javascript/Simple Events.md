@@ -5,6 +5,7 @@ An event object should work like this:
 - it has a .subscribe() method, which takes a function and stores it as its handler
 - it has an .unsubscribe() method, which takes a function and removes it from its handlers
 - it has an .emit() method, which takes an arbitrary number of arguments and calls all the stored functions with these arguments
+
 As this is an elementary example of events, there are some simplifications:
 
 - all functions are called with correct arguments (e.g. only functions will be passed to unsubscribe)
