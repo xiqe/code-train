@@ -1,0 +1,5 @@
+HTMLDocument.prototype = {
+    addClass(){
+
+    }
+}
