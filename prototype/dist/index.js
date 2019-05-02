@@ -1,0 +1,1 @@
+"use strict";Array.prototype={},HTMLDocument.prototype={addClass:function(t){(void 0).classList.add(t)},removeClass:function(t){(void 0).classList.remove(t)},toggleClass:function(t){(void 0).classList.toggle(t)}},String.prototype={};
